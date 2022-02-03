@@ -1,0 +1,220 @@
+
+ @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+ @import url("https://fonts.googleapis.com/css?family=Poppins:400,700,500,600|Lato:700|Roboto:400,700");
+
+ html{
+   overflow-x: hidden;
+
+ }
+:root {
+    --black-2: 
+  rgba(0, 0, 0, 0.102);
+    --black: 
+  rgba(0, 0, 0, 1);
+    --sonic-silver: 
+  rgba(115, 115, 115, 1);
+    --selago: 
+  rgba(227, 235, 253, 1);
+    --white: 
+  rgba(255, 255, 255, 1);
+  
+    --font-size-m: 9px;
+    --font-size-l: 12px;
+    --font-size-xl: 14px;
+    --font-size-xxl: 16px;
+    --font-size-xxxl: 24px;
+    --font-size-xxxxl: 36px;
+    --font-size-xxxxxl: 72px;
+  
+    --font-family-lato: "Lato";
+    --font-family-poppins: "Poppins";
+    --font-family-roboto: "Roboto";}
+
+   
+    
+    .valign-text-middle {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    
+    * {
+      box-sizing: border-box;
+    }
+    
+    :root { 
+      --black: #000000;
+      --black-2: #0000001a;
+      --white: #ffffff;
+     
+      --font-size-l: 12px;
+      --font-size-xl: 14px;
+      --font-size-xxxl: 24px;
+     
+      --font-family-lato: "Lato", Helvetica;
+      --font-family-poppins: "Poppins", Helvetica;
+    }
+    .poppins-medium-white-12px {
+      color: var(--white);
+      font-family: var(--font-family-poppins);
+      font-size: var(--font-size-l);
+      font-style: normal;
+      font-weight: 500;
+    }
+    
+    .card-1 {
+      align-items: flex-start;
+      background-color: var(--white);
+      border-radius: 16px;
+      display: flex;
+      height: 218px;
+      overflow: hidden;
+      width: 343px;
+    }
+    
+    .overlap-group1 {
+      border-radius: 170.5px;
+      height: 341px;
+      margin-left: -103px;
+      margin-top: -92px;
+      position: relative;
+      width: 341px;
+    }
+    
+    .ellipse-1 {
+      background-color: var(--black-2);
+      border-radius: 139.5px;
+      height: 279px;
+      left: 41px;
+      position: absolute;
+      top: 62px;
+      width: 279px;
+    }
+    
+    .ellipse-2 {
+      background-color: var(--black-2);
+      border-radius: 170.5px;
+      height: 341px;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 341px;
+    }
+    
+    .mert-karabay {
+      height: 18px;
+      left: 127px;
+      letter-spacing: 1.20px;
+      position: absolute;
+      top: 268px;
+    }
+    
+    .debit {
+      color: var(--white);
+      font-family: var(--font-family-poppins);
+      font-size: var(--font-size-xl);
+      font-weight: 500;
+      height: 21px;
+      left: 127px;
+      letter-spacing: 0;
+      position: absolute;
+      top: 116px;
+    }
+    
+    .text-2 {
+      color: #fdfdfd;
+      font-family: var(--font-family-lato);
+      font-size: var(--font-size-xxxl);
+      font-weight: 700;
+      height: 29px;
+      left: 127px;
+      letter-spacing: 0.48px;
+      position: absolute;
+      top: 231px;
+    }
+    
+    .flex-col {
+      align-items: flex-end;
+      align-self: center;
+      display: flex;
+      flex-direction: column;
+      margin-left: 33px;
+      min-height: 170px;
+      width: 48px;
+    }
+    
+    .overlap-group {
+      height: 28px;
+      position: relative;
+      width: 48px;
+    }
+    
+    .e33-a24 {
+      background-color: #e33a24;
+      border-radius: 14px;
+      height: 28px;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 28px;
+    }
+    
+    .f8-cb2-e {
+      background-color: #f7cb2ecc;
+      border-radius: 14px;
+      height: 28px;
+      left: 20px;
+      position: absolute;
+      top: 0;
+      width: 28px;
+    }
+    
+    .text-1 {
+      height: 18px;
+      letter-spacing: 0;
+      margin-top: 124px;
+      min-width: 36px;
+    }
+    
+    .mybox{
+        background: gray;
+         width: 240px;
+         height: 240px;
+          display: flex; 
+          justify-content: center;
+           align-items: center; 
+           color: white; 
+           border-radius: 4px;
+           margin: auto;
+        font-size: 24px;
+    }
+    
+    .mybox-big{
+        background: gray;
+         width: 280px;
+         height: 280px;
+          display: flex; 
+          justify-content: center;
+           align-items: center; 
+           color: white; 
+           border-radius: 10px;
+           margin: auto;
+           font-size: 24px;
+    }
+
+    .footer-sidebyside{
+
+        display: flex;}
+
+        .social-media{
+            font-size: 30px;
+          }
+          
+          .social-media a{
+            padding: 8px;
+          }
+
+.nav-link{
+  margin-left: 20px;
+}

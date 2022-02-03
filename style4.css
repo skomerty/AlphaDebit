@@ -1,0 +1,150 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+ @import url("https://fonts.googleapis.com/css?family=Poppins:400,700,500,600|Lato:700|Roboto:400,700");
+
+ html{
+   overflow-x: hidden;
+
+ }
+:root {
+    --black-2: 
+  rgba(0, 0, 0, 0.102);
+    --black: 
+  rgba(0, 0, 0, 1);
+    --sonic-silver: 
+  rgba(115, 115, 115, 1);
+    --selago: 
+  rgba(227, 235, 253, 1);
+    --white: 
+  rgba(255, 255, 255, 1);
+  
+    --font-size-m: 9px;
+    --font-size-l: 12px;
+    --font-size-xl: 14px;
+    --font-size-xxl: 16px;
+    --font-size-xxxl: 24px;
+    --font-size-xxxxl: 36px;
+    --font-size-xxxxxl: 72px;
+  
+    --font-family-lato: "Lato";
+    --font-family-poppins: "Poppins";
+    --font-family-roboto: "Roboto";}
+
+   *{
+       padding: 0;
+       margin:0;
+       box-sizing: border-box;
+   }
+.forms{
+    margin-top: 60px;
+    
+}
+.myinput{
+    padding: 10px;
+    width: 100%;
+    background: none;
+    border:1px solid rgb(168, 168, 168);
+    height: 50px;
+    color: white;
+    padding-top: 20px;
+
+}
+.form-wrap{
+    max-width: 600px !important;
+}
+.form-group{
+    position: relative;
+}
+.floating-label.goup{
+top: 2px;
+font-size: 11px ;
+
+}
+.floating-label{
+    color: #A7A0A0;
+    position: absolute;
+    left: 10px;
+    top: 12px;
+    pointer-events: none;
+    transition: 0.2s ease all;
+}
+.myinput:focus{
+    outline:none;
+    border: 2px solid rgba(255, 255, 255, 0.801) ;
+}
+.myinput:focus ~ .floating-label,.myinput:not(:focus):valid ~ .floating-label{
+    top:2px;
+    font-size: 11px;
+
+}
+button.back{
+    border: 2px solid white;
+    width: 105px;
+    border-radius: 30px;
+    background-color: transparent;
+    height:52px;
+    margin-right: 15px;
+    color: white;
+}
+button.continue{
+    border: 2px solid white;
+    width: 140px;
+    border-radius: 30px;
+    background-color:#e2ebfd;
+    height:52px;
+    margin-right: 15px;
+    color: black;
+}
+.buttons{
+    text-align: right;
+    margin-top: 20px;
+}
+.buttons button{
+    font-weight: 700;
+}
+.button-question{
+    width: 25px;
+    height: 25px;
+    border: none;
+    background-color:gray;
+    border-radius: 50%;
+    color: white;
+}
+
+.button-question:hover ~ .tooltip-content{
+    opacity: 1;
+    z-index: 2;
+
+}
+.question{
+    position: absolute;
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.tooltip-content{
+    color:white;
+    position: absolute;
+    top: 0;
+    width: 175px;
+    margin-left: 0px;
+    background-color:grey ;
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 30px;
+    
+opacity: 0;
+z-index: -10;
+transition: 0.3s ease all;
+}
+@media (max-width:900px)
+{
+    .tooltip-content{
+        margin-left: -200px;
+    }
+}
+.nav-link{
+    margin-left: 20px;
+  }
+
+
